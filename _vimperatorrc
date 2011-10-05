@@ -1,0 +1,61 @@
+"3.0 (created: 2011/03/06 22:51:04)
+
+map <A-0> :tabopen<Space>www.v2ex.com<Return>
+map <A-1> :tabopen<Space>www.163.com<Return>
+map <A-2> :tabopen<Space>www.v2ex.com<Return>
+map <A-3> :tabopen<Space>marvyn.net/ciao<Return>
+map <A-4> :tabopen<Space>foursquare.com<Return>
+map <A-5> :tabopen<Space>min.us<Return>
+map <A-6> :tabopen<Space>www.flickr.com<Return>
+map <A-7> :tabopen<Space>www.v2ex.com<Return>
+map <A-8> :tabopen<Space>www.v2ex.com<Return>
+map <A-9> :tabopen<Space>9city.me<Return>
+map <A-a> :tabopen<Space>amazon.com<Return>
+map <A-b> :tabopen<Space>dict.bing.com/#<Return>
+map <A-c> :tabopen<Space>https://www.google.com/calendar<Return>
+map <A-d> :tabopen<Space>douban.com<Return>
+map <A-e> :tabopen<Space>www.ebay.com/<Return>
+map <A-f> :tabopen<Space>www.facebook.com<Return>
+map <A-g> :tabopen<Space>https://github.com<Return>
+map <A-h> :tabopen<Space>www.facebook.com<Return>
+map <A-i> :tabopen<Space>www.facebook.com<Return>
+map <A-j> :tabopen<Space>www.facebook.com<Return>
+map <A-k> :tabopen<Space>kaixin001.com<Return>
+map <A-l> :tabopen<Space>last.fm/user/faxieh<Return>
+map <A-m> :tabopen<Space>https://mail.google.com<Return>
+map <A-n> :tabopen<Space>nytimes.com/timesskimmer<cr>
+map <A-o> :tabopen<Space>www.facebook.com<Return>
+map <A-p> :tabopen<Space>www.facebook.com<Return>
+map <A-q> :tabopen<Space>quora.com<Return>
+map <A-r> :tabopen<Space>https://www.google.com/reader<Return>
+map <A-s> :tabopen<Space>https://simple-note.appspot.com<Return>
+map <A-t> :tabopen<Space>twitter.com<Return>
+map <A-u> :tabopen<Space>www.facebook.com<Return>
+map <A-v> :tabopen<Space>www.facebook.com<Return>
+map <A-w> :tabopen<Space>http://www.nytimes.com/timesskimmer<Return>
+map <A-x> :tabopen<Space>renren.com<Return>
+map <A-y> :tabopen<Space>www.facebook.com<Return>
+map <A-z> :tabopen<Space>www.facebook.com<Return>
+map <F9> :set! extensions.autoproxy.proxyMode=auto<cr>
+map <F10> :set! extensions.autoproxy.proxyMode=disabled<cr>
+map <F11> :set! extensions.autoproxy.proxyMode=global<cr>
+map <A-y> :tabopen about:config<cr>
+map x :tr<Space>
+map <S-c> :tabopen dc 
+map <S-e> :tabopen e2c 
+map <S-Up> :set gui=none<cr> :set gui=tabs<cr> 
+map <S-Down> :set gui=all<Return>
+set defsearch=g
+hi CompResult font-family:'lucida grande', 'microsoft yahei';
+hi CompItem font-family:'lucida grande', 'microsoft yahei';
+hi CompTitle font-family:'lucida grande', 'microsoft yahei';
+hi CmdLine>* font-family:'lucida grande', 'microsoft yahei';
+hi StatusLine font-family:'lucida grande', 'microsoft yahei';
+set noerrorbells
+autocmd LocationChange .* js modes.passAllKeys = /.*(mail\.google\.com|www\.google\.com\/reader).*/.test(buffer.URL)
+set nextpattern=\s*下一页|下一张|下一节|下一章|下一篇|下一頁|下页|后页\s*,^\bnext\b, \bnext\b,\bsuivant\b,^>$,^(>>|??|?)$,^(>|?),(>|?)$,\bmore\b
+set previouspattern=\s*上一页|上一张|上一节|上一章|上一篇|上一頁|上页|前页\s*,^\bprev|previous\b, \bprev|previous\b,\bprécédent\b,^<$,^(<<|??|?)$,^(<|?),(<|?)$
+set "runtimepath=C:\\Users\\marvyn\\vimperator"
+source! "C:\\Users\\marvyn\\_vimperatorrc.local"
+
+" vim: set ft=vimperator:
